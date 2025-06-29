@@ -1,24 +1,24 @@
 #include<stdio.h>
 /*void goodMorning();
   void goodAfternoon();                      //function prototype
-  void goodEvenig();*/
+  void goodEvening();*/
 
     void goodMorning(){
-        printf("Good mornig dibya");
+        printf("Good morning dibya");
     }
     
     void goodAfternoon(){
-        printf("\nGood mornig dibya");     //funcction definaation
+        printf("\nGood morning dibya");     //funcction definaation
     }
 
-    void goodEvenig(){
-        printf("\nGood mornig dibya");
+    void goodEvening(){
+        printf("\nGood morning dibya");
     }
 
     int main()
     {
         goodMorning();
         goodAfternoon();                   //function call
-        goodEvenig();
+        goodEvening();
         return 0;
     }
